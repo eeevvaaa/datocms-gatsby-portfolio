@@ -30,10 +30,10 @@ const TemplateWrapper = ({ children, data }) => (
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="https://www.linkedin.com/in/li-eva/">LinkedIn</Link>
+            <Link external to="https://www.linkedin.com/in/li-eva/">LinkedIn</Link>
           </li>
           <li>
-            <Link to="https://github.com/eeevvaaa">GitHub</Link>
+            <Link external to="https://github.com/eeevvaaa">GitHub</Link>
           </li>
         </ul>
         <p className="sidebar__social">
